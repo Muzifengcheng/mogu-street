@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 
 import FastClick from 'fastclick'  /* 注意要先安装啊 npm i fastclick --save */
-import VueLazyLoad from 'vue-lazyload'                                       /*npm install vue-lazyload --save */
+import VueLazyLoad from 'vue-lazyload'      /*npm install vue-lazyload --save */
 
 import toast from 'components/common/toast'
 
