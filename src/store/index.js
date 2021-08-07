@@ -17,6 +17,7 @@ const store = new Vuex.Store({
         cartList: []
     },
     mutations,
+    
     actions,
     getters
 })
