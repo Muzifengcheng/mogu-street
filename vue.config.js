@@ -10,6 +10,7 @@ module.exports={
                 'network': '@/network',
                 'views': '@/views',
             }
-        }
+        },
+        devtool: 'source-map'
     }
 }
