@@ -1,4 +1,5 @@
 <template>
+<div >
   <swiper>
     <!-- <swiper-item v-for="(item,index) in banners" :key="index"> 记得写key,否则warning-->
 
@@ -9,6 +10,8 @@
       </a>
     </swiper-item>
   </swiper>
+</div>
+
 </template>
 
 <script>
@@ -42,5 +45,6 @@ export default {
 };
 </script>
 
-<style scoped>
+<style >
+
 </style>

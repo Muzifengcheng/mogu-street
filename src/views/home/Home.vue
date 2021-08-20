@@ -183,7 +183,7 @@ export default {
       this.$refs.tabControl2.currentIndex = index;
     },
     //网络请求相关代码
-    getHomeMultidata() {
+    getHomeMultidata() {   
       getHomeMultidata().then(res => {
         // console.log(res);
         //  this.result=res//箭头函数没this，它会往上层作用域找，create中的this，就是当前组件的对象

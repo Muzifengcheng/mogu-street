@@ -11,6 +11,6 @@ module.exports={
                 'views': '@/views',
             }
         },
-        devtool: 'source-map'
+        devtool:'source-map'
     }
 }

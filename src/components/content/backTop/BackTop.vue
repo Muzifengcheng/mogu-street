@@ -12,7 +12,7 @@ methods: {
 /*   这样做麻烦，去直接Home监听backTop组件点击  btnClick(){
         console.log("回到顶部")//需要依赖better-scroll的滚动对象
         //也就是你BackTop的点击事件需要依赖Scroll中的代码
-        this.$emit('btnClick')//将事件发出去，回到了HOme中backClick
+        this.$emit('btnClick')//将事件发出去，回到了Home中backClick
     } */
 },
 }
