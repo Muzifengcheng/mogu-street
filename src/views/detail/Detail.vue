@@ -100,6 +100,7 @@ export default {
 
       //3.创建店铺信息对象
       this.shop = new Shop(data.shopInfo);
+      console.log(this.shop,"kkk")
       //4.保存商品的详情数据
       this.detailInfo = data.detailInfo;
       //5.获取参数信息
@@ -148,6 +149,7 @@ export default {
     this.$bus.$off("itemImgLoad", -this.itemImgListener);
   },
   methods: {
+    //mapActions辅助函数仅仅是将store中的Actions映射到局部methods
     ...mapActions(["addCart"]),
     imageLoad() {
       // this.$refs.scroll.refresh();暂时这样写一下
